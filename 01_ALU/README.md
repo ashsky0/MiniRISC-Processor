@@ -28,7 +28,7 @@ It performs arithmetic, logic, shifting, and comparison operations, and outputs 
 ├── docs/ # Final Report with schematics, design considerations, and results
 ├── sim/ # ModelSim Results (can also be found in report)
 ├── src/ # ALU SystemVerilog design
-└── tb/ # ALU unit testbench + simulation files
+└── tb/ # ALU unit testbench
 ```
 
 ---
