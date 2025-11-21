@@ -64,6 +64,8 @@ Each stage builds upon the previous, adding architectural complexity while reusi
 
 ### **1️⃣ Stage 1 — ALU**
 Implements a standalone Arithmetic Logic Unit capable of add, subtract, logic operations, shifts, comparisons, and flag generation.
+<img width="536" height="378" alt="Screenshot 2025-11-21 at 1 18 30 PM" src="https://github.com/user-attachments/assets/c48c96c4-597e-4b1c-b499-63133eeb1e26" />
+
 
 ### **2️⃣ Stage 2 — Single-Cycle CPU**
 A complete RISC processor where each instruction executes in a single clock cycle. Includes:
@@ -73,6 +75,7 @@ A complete RISC processor where each instruction executes in a single clock cycl
 - Control unit
 - Data memory
 - Branch logic
+<img width="750" height="408" alt="Screenshot 2025-11-21 at 1 19 30 PM" src="https://github.com/user-attachments/assets/14eab9cd-eaf4-4be5-8401-1da2f9524ffd" />
 
 ### **3️⃣ Stage 3 — Pipelined CPU**
 A 5-stage processor with:
@@ -81,6 +84,7 @@ A 5-stage processor with:
 - Hazard detection unit
 - Stall logic and flushing
 - Separated pipeline registers
+<img width="736" height="384" alt="Screenshot 2025-11-21 at 1 20 19 PM" src="https://github.com/user-attachments/assets/2eac1295-67be-40af-b184-8145301adc0f" />
 
 ModelSim output screenshots for this stage are included in the **project report**, referenced inside the `03_PipelinedCPU/docs` folder.
 
