@@ -43,8 +43,8 @@ To simulate:
 vlib work
 vlog ../01_ALU/src/*.sv        ;# ALU reuse
 vlog src/*.sv
-vlog tb/SingleCycleCPU_tb.sv
-vsim SingleCycleCPU_tb
+vlog tb/testbench.sv
+vsim testbench
 run -all
 ```
 ✔ What the Testbench Covers
